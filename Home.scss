@@ -185,8 +185,7 @@ body {
   background-color: #362641;
   .second-div {
     padding-top: 6rem;
-    margin-top: 6rem;
-    // border: 1px solid red;
+    padding-bottom: 6rem;
     width: 90%;
     margin: auto;
     font-family: "Sora", sans-serif;
@@ -268,14 +267,171 @@ body {
   }
 }
 .fifth-container {
-  margin-top: 0px;
+  margin-top: -70px;
   background-color: #ffd66a;
+  padding-bottom: 6rem;
+  h3 {
+    color: #362641;
+    padding-top: 6rem;
+    text-align: center;
+    font-family: "Viaoda Libre", display;
+    font-size: 3.125rem;
+    font-weight: 400;
+    letter-spacing: 2.54px;
+  }
   .box-div {
     display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
     width: 90%;
     margin: auto;
-    div{
-      padding: 10px;
+    div {
+      background-color: #ffffff;
+      margin-right: 25px;
+      width: 33.3333%;
+      div {
+        width: 100%;
+        // border: 1px solid red;
+      }
+      :nth-child(2) {
+        // border: 1px solid red;
+        // margin: 0 20px 0 10px;
+        width: 85%;
+        margin: auto;
+        h5 {
+          font-family: "Viaoda Libre", display;
+          color: #e62b56;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          font-size: 3.125rem;
+          line-height: 1.075;
+          letter-spacing: 0.46px;
+          font-weight: 400;
+        }
+        .illus {
+          font-family: "Sora", sans-serif;
+          font-size: 1rem;
+          line-height: 1;
+          text-align: left;
+          letter-spacing: 0.37px;
+          margin-left: -0px;
+          // border: 1px solid #e62b56;
+        }
+        h4 {
+          font-family: "Sora", sans-serif;
+          font-size: 1rem;
+          line-height: 2;
+          letter-spacing: 0.37px;
+          font-weight: 300;
+          // opacity: 0.5;
+          text-align: left;
+        }
+        p {
+          font-family: "Sora", sans-serif;
+          font-size: 1rem;
+          line-height: 2;
+          letter-spacing: 0.37px;
+          color: #282727;
+          font-weight: 200;
+          // margin: -20px 0 -20px 0;
+        }
+      }
+      .line-div {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #725686;
+        margin: 5px 0 10px 0;
+        line-height: 1;
+        // margin-top: 20px;
+        // margin-bottom: 20px;
+      }
+      img {
+        width: 100%;
+        height: 400px;
+        display: block;
+      }
+    }
+  }
+}
+.sixth-div {
+  background-color: #ffffff;
+  .box-div {
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    // border: 1px solid red;
+    .text-div {
+      font-family: "Sora", sans-serif;
+      font-size: 1rem;
+      line-height: 2;
+      letter-spacing: 0.37px;
+      h3 {
+        font-weight: 300;
+        margin-bottom: 25px;
+        color: #e62b56;
+        text-align: center;
+        padding: 0%;
+      }
+      p {
+        font-weight: 100;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+    }
+    .form-div {
+      width: 80%;
+      margin: auto;
+      // border: 1px solid red;
+      input {
+        border: 1px solid #349670;
+        height: 38px;
+        align-items: center;
+        width: 250px;
+      }
+      ::placeholder {
+        color: #349670;
+        padding-left: 20px;
+        letter-spacing: 2px;
+        font-weight: 400;
+      }
+      button {
+        background-color: #349670;
+        text-align: center;
+        align-items: center;
+        color: #ffffff;
+        border: none;
+        // height: 35px;
+        padding: 14px 35px;
+        font-size: 1rem;
+        line-height: 1;
+      }
+    }
+  }
+}
+.footer-div {
+  background-color: #725686;
+  footer {
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Sora", sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 0.37px;
+    ul{
+      display: flex;
+      justify-content: space-between;
+      img{
+        width: 100%;
+        height: 15px;
+      }
     }
   }
 }
